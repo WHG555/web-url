@@ -1,11 +1,64 @@
-name: GitHub Actions Build and Deploy Demo
+# Action 的名字
+name: Hexo pluge
+
 on:
+  # 触发条件1：main 分支收到 push 后执行任务。
   push:
     branches:
       - master
+  # 触发条件2：手动按钮
+  workflow_dispatch:
+
+# 这里放环境变量,需要替换成你自己的
+env:
+  # Hexo 编译后使用此 git 用户部署到 github 仓库
+  GIT_USER: WHG555
+  # Hexo 编译后使用此 git 邮箱部署到 github 仓库
+  GIT_EMAIL: whghcyx@outlook.com
+  # Hexo 编译后要部署的 github 仓库
+  GIT_DEPLOY_REPO: WHG555/whg555.github.io
+  # Hexo 编译后要部署到的分支
+  GIT_DEPLOY_BRANCH: master
+  
+  # 注意替换为你的 GitHub 源仓库地址
+  GIT_SOURCE_REPO: git@github.com:WHG555/whg555.github.io.git
+
 jobs:
-  build-and-deploy:
+  build:
+    name: Build on node ${{ matrix.node_version }} and ${{ matrix.os }}
     runs-on: ubuntu-latest
+    if: github.event.repository.owner.id == github.event.sender.id
+    strategy:
+      matrix:
+        os: [ubuntu-18.04]
+        node_version: [12.x]
+
     steps:
-        - name: Checkout
-        uses: actions/checkout@master
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Use Node.js ${{ matrix.node_version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node_version }}
+
+      - name: Configuration environment
+        env:
+          HEXO_DEPLOY_PRI: ${{secrets.HEXO_DEPLOY_PRI}}
+        run: |
+          sudo timedatectl set-timezone "Asia/Shanghai"
+          mkdir -p ~/.ssh/
+          echo "$HEXO_DEPLOY_PRI" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
+          # coding 已取消同步
+          ssh-keyscan -t rsa e.coding.net >> ~/.ssh/known_hosts
+          ssh-keyscan -t rsa gitee.com >> ~/.ssh/known_hosts
+          git config --global user.name WHG555
+          git config --global user.email whghcyx@outlook.com
+          
+      - name: Install dependencies
+        run: |
+          npm install -g hexo
+          npm install
+          # 根据你安装的组件进行安装
