@@ -62,3 +62,8 @@ jobs:
           npm install -g hexo
           npm install
           # 根据你安装的组件进行安装
+
+      - name: Deploy hexo
+        run: |
+          hexo g -d
+          
