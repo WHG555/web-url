@@ -68,8 +68,15 @@ jobs:
         run: |
           hexo g
 
-      - name: Deploy2
+      - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4.3.3
+        with:
+          ssh-key: ${{ secrets.DEPLOY_KEY }}
+          repository-name: WHG555/web-url
+          branch: master # The branch the action should deploy to.
+          folder: public # The folder the action should deploy.
+          single-commit: true
+          commit-message: "Deploy by source"
 
       - name: update code
         env:
