@@ -73,24 +73,7 @@ jobs:
         with:
           ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
           repository-name: WHG555/web-url
-          branch: master # The branch the action should deploy to.
+          branch: gh-pages # The branch the action should deploy to.
           folder: public # The folder the action should deploy.
           single-commit: true
           commit-message: "Deploy by source"
-
-      - name: update code
-        env:
-          HEXO_DEPLOY_PRI: ${{secrets.HEXO_DEPLOY_PRI}}
-          TOKEN_SHOW: ${{ secrets.TOKEN_ARTICLE }}
-        run: |
-          echo $TOKEN_SHOW
-          cd public
-          git init 
-          git config --global init.defaultBranch main
-          git remote add origin git@github.com:WHG555/web-url.git
-          git remote set-url origin https://$TOKEN_SHOW@github.com/WHG555/web-url.git
-          
-          cat .git/config
-          git add . --all
-          git commit -m "github action publish"
-          git push origin main -f
