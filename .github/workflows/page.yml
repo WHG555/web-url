@@ -65,5 +65,22 @@ jobs:
 
       - name: Deploy hexo
         run: |
-          hexo g -d
+          hexo g
           
+      - name: update code
+        env:
+          HEXO_DEPLOY_PRI: ${{secrets.HEXO_DEPLOY_PRI}}
+          TOKEN_SHOW: ${{ secrets.TOKEN_ARTICLE }}
+        run: |
+          echo $TOKEN_SHOW
+          cd public
+          git init 
+          git config --global init.defaultBranch gh-pages
+          git remote add origin git@github.com:WHG555/web-url.git
+          git remote set-url origin https://$TOKEN_SHOW@github.com/WHG555/web-url.git
+          
+          
+          cat .git/config
+          git add . --all
+          git commit -m "github action publish"
+          git push origin main -f
