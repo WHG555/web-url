@@ -6,6 +6,7 @@ on:
   push:
     branches:
       - main
+      - master
   # 触发条件2：手动按钮
   workflow_dispatch:
 
@@ -75,7 +76,7 @@ jobs:
           echo $TOKEN_SHOW
           cd public
           git init 
-          git config --global init.defaultBranch branch
+          git config --global init.defaultBranch main
           git remote add origin git@github.com:WHG555/web-url.git
           git remote set-url origin https://$TOKEN_SHOW@github.com/WHG555/web-url.git
           
