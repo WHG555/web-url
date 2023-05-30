@@ -1,0 +1,26 @@
+# ---------- 文件类型说明 ---------- #
+# 不好分类的工具
+- name: 新浪短链接制作
+  url: https://sina.lt/
+  img: images/get/search.png
+  description: 制作短链接，不支持统计
+- name: ft12短链接制作
+  url: https://www.ft12.com/
+  img: images/get/search.png
+  description: 制作短链接，支持统计
+- name: 4m短链接制作
+  url: https://4m.cn/
+  img: images/get/search.png
+  description: 制作短链接，支持统计
+- name: Google翻译
+  url: https://translate.google.cn/
+  img: images/get/search.png
+  description: 
+- name: 有道翻译
+  url: http://fanyi.youdao.com/?keyfrom=dict2.index
+  img: images/get/search.png
+  description: 
+- name: 百度翻译
+  url: https://fanyi.baidu.com/?aldtype=16047#auto/zh
+  img: images/get/search.png
+  description: 

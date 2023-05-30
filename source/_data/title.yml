@@ -1,0 +1,23 @@
+# ---------- 文件类型说明 ---------- #
+# 
+- name: 微信公众平台
+  url: https://mp.weixin.qq.com
+  img: images/get/search.png
+  description: 微信管理后台
+- name: 图虫
+  url: 
+  img: images/get/search.png
+  description: 
+- name: 51CTO
+  url: https://blog.51cto.com/
+  img: images/get/search.png
+  description: IT的文章分享网站
+- name: CSDN
+  url: https://www.csdn.net/
+  img: images/get/search.png
+  description: IT的文章分享网站
+- name: 简书
+  url: https://www.jianshu.com/
+  img: images/get/search.png
+  description: 生活文章分享网站
+ 

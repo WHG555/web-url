@@ -1,0 +1,18 @@
+# ---------- 文件类型说明 ---------- #
+# 
+- name: 我的博客
+  url: https://whghcyx.gitee.io/
+  img: images/get/search.png
+  description: 分享自己学习到的知识
+- name: 公子墨
+  url: https://xydh.fun/%E5%85%AC%E5%AD%90%E5%A2%A8
+  img: images/get/search.png
+  description: 公子墨的个人收藏站
+- name: Hexo本地网站
+  url: http://localhost:4000
+  img: images/get/search.png
+  description: 网站本地测试
+- name: 手机万能工具
+  url: https://wsucai.com/
+  img: images/get/search.png
+  description: 网站导航网站

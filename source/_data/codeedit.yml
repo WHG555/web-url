@@ -1,0 +1,10 @@
+# ---------- 文件类型说明 ---------- #
+# 
+- name: PyCharm
+  url: 
+  img: images/get/search.png
+  description: python的常用编辑软件
+- name: VSCode
+  url: 
+  img: images/get/search.png
+  description: 轻量的编辑器

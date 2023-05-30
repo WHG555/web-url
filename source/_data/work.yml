@@ -1,0 +1,26 @@
+# ---------- 文件类型说明 ---------- #
+# 招聘网站
+- name: 前程无忧
+  url: https://www.51job.com/
+  img: images/get/search.png
+  description: 
+- name: 58同城
+  url: https://ty.58.com/job.shtml
+  img: images/get/search.png
+  description: 
+- name: 智联招聘
+  url: https://jobs.zhaopin.com/
+  img: images/get/search.png
+  description: 
+- name: BOSS直聘
+  url: https://www.zhipin.com/
+  img: images/get/search.png
+  description: 
+- name: 拉勾网
+  url: https://www.lagou.com/
+  img: images/get/search.png
+  description: 
+- name: 赶集网
+  url: http://www.ganji.com/zhaopin/
+  img: images/get/search.png
+  description: 

@@ -1,0 +1,17 @@
+# 剑三游戏
+- name: 剑三配装器
+  url: https://www.j3pz.com/
+  img: images/game/game.ico
+  description: 百度搜索
+- name: 剑三辅助
+  url: https://haiman.io/ssr-plugin
+  img: images/get/search.png
+  description: 
+- name: 成就百科
+  url: https://haiman.io/jx3/wiki
+  img: images/get/search.png
+  description: 
+- name:  科举答题器
+  url: https://haiman.io/m/jx3/search/keju
+  img: images/get/search.png
+  description: 

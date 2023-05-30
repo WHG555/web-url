@@ -1,0 +1,14 @@
+# ---------- 文件类型说明 ---------- #
+# 
+- name: 四海影院
+  url: http://www.sihaizhongtong.cn/
+  img: images/get/search.png
+  description: 【视频】【网页】网页版播放视频
+- name: 蒙面大侠
+  url: https://mengmiandaxia.com/
+  img: images/get/search.png
+  description: 【视频】【网页】网页版播放视频
+- name: 小小影视
+  url: http://www.il520.com/
+  img: images/get/search.png
+  description: 

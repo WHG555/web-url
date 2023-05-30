@@ -1,0 +1,14 @@
+# ---------- 文件类型说明 ---------- #
+# 
+- name: Git官网
+  url: https://github.com
+  img: images/get/search.png
+  description: 
+- name: Gitee码云
+  url: https://gitee.com
+  img: images/get/search.png
+  description: 中国的代码管理网站
+- name: SourceForge
+  url: https://sourceforge.net
+  img: images/get/search.png
+  description: 

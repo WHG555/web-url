@@ -1,0 +1,32 @@
+# ---------- 文件类型说明 ---------- #
+# 
+- name: Xmind
+  url: 
+  img: images/get/search.png
+  description: 【推荐】 本地编辑
+- name: ZhiMap
+  url: 
+  img: images/get/search.png
+  description: 【微信】 【网页】 
+- name: iMindMap
+  url: 
+  img: images/get/search.png
+  description: 做出的图很好看，连接线为渐变效果
+- name: 百度脑图
+  url: https://naotu.baidu.com/home
+  img: images/get/search.png
+  description: 【网页】
+- name: GitMind
+  url: https://gitmind.cn/app/my
+  img: images/get/search.png
+  description: 【网页】
+- name: MindMaster
+  url: https://mm.edrawsoft.cn/files
+  img: images/get/search.png
+  description: 【网页】【app】
+- name: 幕布
+  url: https://mubu.com/
+  img: images/get/search.png
+  description: 【网页】【app】【文档输入】
+
+  

@@ -1,0 +1,42 @@
+# ---------- 文件类型说明 ---------- #
+# 常用的各种类型的软件
+- name: Clover
+  url: http://cn.ejie.me/
+  img: images/get/search.png
+  description: 带标签的文件管理器
+- name: QQ影音
+  url: https://player.qq.com/
+  img: images/get/search.png
+  description: 本场视频播放软件
+- name: Everything
+  url: 
+  img: images/get/search.png
+  description: 电脑内文件搜索软件
+- name: 美图看看
+  url: 
+  img: images/get/search.png
+  description: 图片查看软件
+- name: MobaXterm
+  url: 
+  img: images/get/search.png
+  description: 连接Linux的终端工具
+- name: OneQuick
+  url: 
+  img: images/get/search.png
+  description: Win10多桌面切换软件
+- name: 坚果云
+  url: https://www.jianguoyun.com/
+  img: images/get/search.png
+  description: 多终端自动同步软件
+- name: 360极速浏览器
+  url: https://browser.360.cn/ee/
+  img: images/get/search.png
+  description: 
+- name: ES文件浏览器
+  url: http://www.estrongs.com/
+  img: images/get/search.png
+  description: 【手机】文件管理工具
+- name: 日事清
+  url: https://www.rishiqing.com/
+  img: images/get/search.png
+  description: 任务管理软件

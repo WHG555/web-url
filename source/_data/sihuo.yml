@@ -1,0 +1,94 @@
+# ---------- 文件类型说明 ---------- #
+# 程序员 接私活的网站
+- name: 程序员客栈
+  url: https://www.proginn.com/
+  img: images/get/search.png
+  description: 
+- name: 码市
+  url: https://codemart.com/
+  img: images/get/search.png
+  description: 
+- name: 开源众包
+  url: https://zb.oschina.net/projects/list.html
+  img: images/get/search.png
+  description: 
+- name: 猪八戒网
+  url: https://taiyuan.zbj.com/
+  img: images/get/search.png
+  description: 适合新手
+- name: 英选
+  url: https://www.yingxuan.io/
+  img: images/get/search.png
+  description: 
+- name: 快码
+  url: https://kuaimacode.com/
+  img: images/get/search.png
+  description: 
+- name: 码易众包平台
+  url: https://www.mayigeek.com/
+  img: images/get/search.png
+  description: 
+- name: 电鸭
+  url: https://eleduck.com/
+  img: images/get/search.png
+  description: 
+- name: 开发邦
+  url: https://www.kaifabang.com/
+  img: images/get/search.png
+  description: 
+- name: 人人开发
+  url: http://rrkf.com/
+  img: images/get/search.png
+  description: 
+- name: Sxsoft
+  url: https://www.sxsoft.com/
+  img: images/get/search.png
+  description: 
+- name: 猿急送
+  url: https://www.yuanjisong.com/
+  img: images/get/search.png
+  description: 
+- name: 实现网
+  url: https://shixian.com/
+  img: images/get/search.png
+  description: 
+- name: 智城外包
+  url: http://www.taskcity.com/
+  img: images/get/search.png
+  description: 
+- name: Upwork
+  url: https://www.upwork.com/
+  img: images/get/search.png
+  description: 【国外】全球最大的、最优秀的、最规范的综合类人力外包服务平台
+- name: freelance
+  url: https://www.freelance.com/
+  img: images/get/search.png
+  description:  【国外】覆盖了很多不同的领域
+- name: Dribbble
+  url: https://dribbble.com/jobs
+  img: images/get/search.png
+  description: 
+- name: Stackoverflow
+  url: https://stackoverflow.com/jobs
+  img: images/get/search.png
+  description: 
+- name: 99designs
+  url: https://99designs.com/
+  img: images/get/search.png
+  description: 
+- name: Remoteok
+  url: https://remoteok.io/
+  img: images/get/search.png
+  description: 
+- name: Toptal
+  url: https://www.toptal.com/
+  img: images/get/search.png
+  description: 
+- name: Ange
+  url: https://angel.co/remote
+  img: images/get/search.png
+  description: 
+- name: Topcoder
+  url: https://www.topcoder.com/
+  img: images/get/search.png
+  description: 

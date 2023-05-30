@@ -1,0 +1,21 @@
+# 搜索软件
+- name: 百度
+  url: https://www.baidu.com/
+  img: images/get/search.png
+  description: 百度搜索
+- name: 谷歌搜索
+  url: https://www.google.com/
+  img: images/get/search.png
+  description: 谷歌搜索
+- name: 摩羯搜索
+  url: https://www.jiumodiary.com/
+  img: images/get/search.png
+  description: 电子书搜索
+- name: 磁力搜索
+  url: https://biedian.me/?form=hao.su/908/
+  img: images/get/search.png
+  description: 种子搜索
+- name: 虫部落
+  url: https://search.chongbuluo.com/
+  img: images/get/search.png
+  description: 各种搜索软件

@@ -1,0 +1,62 @@
+# ---------- 文件类型说明 ---------- #
+# 理财常用网站 
+- name: 天天基金
+  url: https://fund.eastmoney.com/
+  img: images/get/search.png
+  description: 【基金】
+- name: 晨星网
+  url: https://cn.morningstar.com/main/default.aspx
+  img: images/get/search.png
+  description: 【纯债基金】
+- name: 蛋卷基金网
+  url: https://danjuanapp.com/
+  img: images/get/search.png
+  description: 【基金组合】
+- name: 且慢
+  url: https://qieman.com/
+  img: images/get/search.png
+  description: 【基金组合】
+- name: 理杏仁
+  url: https://www.lixinger.com/
+  img: images/get/search.png
+  description: 
+- name: 巨潮资讯
+  url: http://www.cninfo.com.cn/new/index
+  img: images/get/search.png
+  description: 【基金招募书】
+- name: 英为财情
+  url: https://cn.investing.com/
+  img: images/get/search.png
+  description: 
+- name: 集思录
+  url: https://www.jisilu.cn/
+  img: images/get/search.png
+  description: 【可转债】
+- name: 东方财富
+  url: https://www.eastmoney.com/
+  img: images/get/search.png
+  description: 
+- name: 中国证券投资基金业协会
+  url: https://www.amac.org.cn/index/
+  img: images/get/search.png
+  description: 
+- name: 中证指数有限公司
+  url: http://www.csindex.com.cn/
+  img: images/get/search.png
+  description: 
+- name: 雪球
+  url: https://xueqiu.com/
+  img: images/get/search.png
+  description: 
+- name: 可转债实时数据
+  url: https://www.jisilu.cn/data/cbnew/#cb
+  img: images/get/search.png
+  description: 【数据】
+- name: 10年期国债收益率
+  url: https://cn.investing.com/rates-bonds/china-10-year-bond-yield
+  img: images/get/search.png
+  description: 【数据】
+- name: I问财
+  url: http://www.iwencai.com/
+  img: images/get/search.png
+  description: 【股票】

@@ -1,0 +1,57 @@
+# 各种信息的获取
+- name: 知乎
+  url: https://www.zhihu.com/
+  img: images/get/search.png
+  description: 针对话题讨论式的资讯网站
+- name: 简书
+  url: https://www.jianshu.com/
+  img: images/get/search.png
+  description: 发布很多的文章
+- name: 机器之心
+  url: https://www.jiqizhixin.com/
+  img: images/get/search.png
+  description: 发布关于AI的各种最新资讯
+- name: InfoQ
+  url: https://www.infoq.cn/
+  img: images/get/search.png
+  description: 
+- name: 我爱计算机视觉
+  url: https://www.52cv.net
+  img: images/get/search.png
+  description: 
+- name: GitLogs
+  url: https://www.gitlogs.com/
+  img: images/get/search.png
+  description: 
+- name: Model Zoo
+  url: https://modelzoo.co
+  img: images/get/search.png
+  description: 
+- name: 前沿论文
+  url: https://arxiv.org/
+  img: images/get/search.png
+  description: 
+- name: Pytorch中文网
+  url: https://www.pytorchtutorial.com
+  img: images/get/search.png
+  description: 
+- name: 华为云资讯
+  url: https://bbs.huaweicloud.com/community/usersnew/id_1533526811468810
+  img: images/get/search.png
+  description: 
+- name: CTOLib码库
+  url: https://www.ctolib.com/python/
+  img: images/get/search.png
+  description: 
+- name: 腾迅云资讯
+  url: https://cloud.tencent.com/developer/articles/105?q=hot
+  img: images/get/search.png
+  description: 
+- name: MANAI AI技术 
+  url: http://talk.strangeai.pro/
+  img: images/get/search.png
+  description: 
+- name: OSChina
+  url: https://www.oschina.net/
+  img: images/get/search.png
+  description: 

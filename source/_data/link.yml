@@ -1,0 +1,22 @@
+# ---------- 文件类型说明 ---------- #
+# 互连工具
+- name: putty
+  url: 
+  img: images/get/search.png
+  description: window连接Linux的ssh工具
+- name: Xshell
+  url: 
+  img: images/get/search.png
+  description: window连接Linux的ssh工具
+- name: SecrtCRT
+  url: 
+  img: images/get/search.png
+  description: window连接Linux的ssh工具 串口调试 蝇蝇是中是中 蝇是中蝇蝇是蝇  中蝇国中蝇是中 是虽 蝇蝇蝇是 
+- name: termiux
+  url: 
+  img: images/get/search.png
+  description: 
+- name: MobaSteam
+  url: 
+  img: images/get/search.png
+  description: 【推荐】 ssh工具 ftp工具

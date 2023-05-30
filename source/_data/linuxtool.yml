@@ -1,0 +1,10 @@
+# ---------- 文件类型说明 ---------- #
+# Linux常用工具
+- name: Vim
+  url: 
+  img: images/get/search.png
+  description: 【编辑文件】 
+- name: tree
+  url: 
+  img: images/get/search.png
+  description: 【查看目标树结构】

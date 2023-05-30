@@ -1,0 +1,66 @@
+# ---------- 文件类型说明 ---------- #
+# 下载软件的网站
+- name: I Tell You
+  url: https://msdn.itellyou.cn
+  img: images/get/search.png
+  description: 各种微软系统、软件
+- name: 系统库
+  url: http://www.xitongku.com/
+  img: images/get/search.png
+  description: 
+- name: 历趣
+  url: https://www.liqucn.com/
+  img: images/get/search.png
+  description: 
+- name: 大眼仔
+  url: http://www.dayanzai.me/
+  img: images/get/search.png
+  description: 各种带破解工具的软件
+- name: 小众软件
+  url: https://www.appinn.com/
+  img: images/get/search.png
+  description: 
+- name: chroms插件库
+  url: https://www.extfans.com
+  img: images/get/search.png
+  description: 
+- name: 少数派
+  url: https://sspai.com/mall
+  img: images/get/search.png
+  description: 
+- name: 我爱分享网
+  url: http://www.zhanshaoyi.com/rjxz.html
+  img: images/get/search.png
+  description: 
+- name: softpedia
+  url: http://www.zhanshaoyi.com/rjxz.html
+  img: images/get/search.png
+  description: 
+- name: 胡萝卜周
+  url: http://www.carrotchou.blog
+  img: images/get/search.png
+  description: 
+- name: 清华镜像站
+  url: https://mirrors.tuna.tsinghua.edu.cn/
+  img: images/get/search.png
+  description: 
+- name: Docker库
+  url: https://hub.docker.com
+  img: images/get/search.png
+  description: 
+- name: Python库
+  url: https://pypi.org
+  img: images/get/search.png
+  description: 
+- name: 腾迅软件库
+  url: https://pc.qq.com/
+  img: images/get/search.png
+  description: 
+- name: 果核剥壳
+  url: https://www.ghpym.com/
+  img: images/get/search.png
+  description: 
+- name: 吾爱破解
+  url: https://www.52pojie.cn/
+  img: images/get/search.png
+  description: 

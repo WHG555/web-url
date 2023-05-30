@@ -1,0 +1,10 @@
+# ---------- 文件类型说明 ---------- #
+# AI类型的比赛网站
+- name: FlyAI
+  url: https://www.flyai.com/
+  img: images/get/search.png
+  description: 
+- name: 百度飞浆
+  url: http://ai.baidu.com/
+  img: images/get/search.png
+  description: 

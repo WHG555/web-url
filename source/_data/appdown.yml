@@ -1,0 +1,25 @@
+# 手机APP下载网站
+- name: 夜神APP下载
+  url: https://www.yeshen.com/appcenter/
+  img: images/get/search.png
+  description: 夜神app下载网站
+- name: 雷电APP下载
+  url: https://www.ldmnq.com/app/?from=indexnav
+  img: images/get/search.png
+  description: 雷电app下载网站
+- name: 助手下载
+  url: http://app.zhushou.sogou.com/?ch=sgsearch29
+  img: images/get/search.png
+  description: 应用下载
+- name: 豌豆荚
+  url: https://www.wandoujia.com/
+  img: images/get/search.png
+  description: 应用下载
+- name: PP助手
+  url: https://m.pp.cn/home.html
+  img: images/get/search.png
+  description: 应用下载
+- name: Apkpure
+  url: https://apkpure.com/cn/
+  img: images/get/search.png
+  description: 应用下载

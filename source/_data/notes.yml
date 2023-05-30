@@ -1,0 +1,10 @@
+# ---------- 文件类型说明 ---------- #
+# 笔记软件
+- name: 有道云笔记
+  url: https://note.youdao.com/web/#/file/recent
+  img: images/get/search.png
+  description: 常用笔记软件
+- name: Notion
+  url: https://www.notion.so/cnotion/Notion-5abab35490f94493943ea6aae5609532
+  img: images/get/search.png
+  description: 国外的笔记软件
