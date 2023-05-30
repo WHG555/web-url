@@ -115,5 +115,6 @@ deploy:
   type: git
   repository: git@gitee.com:whghcyx/web-url.git
   repo: 
-       gitee: git@gitee.com:whghcyx/web-url.git
-  branch: master
+       # gitee: git@gitee.com:whghcyx/web-url.git
+       github: git@github.com:WHG555/web-url.git
+  branch: main

@@ -1,5 +1,5 @@
 # 搜索软件
-- name: 百度
+- name: 百度搜索
   url: https://www.baidu.com/
   img: images/get/search.png
   description: 百度搜索
